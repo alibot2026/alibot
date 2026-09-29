@@ -1,0 +1,1 @@
+web: gunicorn alibot_webapp:app
