@@ -194,8 +194,6 @@ def chat():
     user_msg = data.get('message', '')
     reply = ask_groq(user_msg)
     return jsonify({'reply': reply})
-
-if debug=False)
 if __name__ == '__main__':
     import os
     port = int(os.environ.get('PORT', 8080))
